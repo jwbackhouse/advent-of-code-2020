@@ -8,7 +8,6 @@ let numValid = 0;
 for (let line of input) {
   if (line === '') {
     if (passport.length < 7) {
-      console.log(passport, 'fail');
       passport = [];
       continue;
     }
